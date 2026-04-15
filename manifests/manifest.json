@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gretageo.github.io/test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Greta's manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://6c0479d3-1d0e-455c-bf41-64f1ee2fcfb5",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://d336bd54-46ec-4e6f-a64c-7ae8d7bce436",
+      "@type" : "sc:Canvas",
+      "label" : "Fish Cave profile",
+      "height" : 3472,
+      "width" : 4640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://13e9563d-86d2-45ae-a4a9-e5c4da9fc218",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gretageo.github.io/test/images/IMG_20230623_123559/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gretageo.github.io/test/images/IMG_20230623_123559",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3472,
+          "width" : 4640
+        },
+        "on" : "http://d336bd54-46ec-4e6f-a64c-7ae8d7bce436"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b8923998-1c55-4779-8464-6f9b88cf8a62",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3280,
+      "width" : 2464,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aa9659dd-5336-4bb0-af8a-3c54dcd51b04",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gretageo.github.io/test/images/IMG_20230623_122743/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gretageo.github.io/test/images/IMG_20230623_122743",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3280,
+          "width" : 2464
+        },
+        "on" : "http://b8923998-1c55-4779-8464-6f9b88cf8a62"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

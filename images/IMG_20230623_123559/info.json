@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 145,
+    "height" : 109
+  }, {
+    "width" : 290,
+    "height" : 217
+  }, {
+    "width" : 580,
+    "height" : 434
+  }, {
+    "width" : 1160,
+    "height" : 868
+  }, {
+    "width" : 2320,
+    "height" : 1736
+  }, {
+    "width" : 4640,
+    "height" : 3472
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 4640,
+  "@id" : "https://gretageo.github.io/test/images/IMG_20230623_123559",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3472
+}

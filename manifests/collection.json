@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gretageo.github.io/test/manifests/manifest2.json",
     "label" : "Greta's"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gretageo.github.io/test/manifests/manifest.json",
+    "label" : "Greta's manifest"
   } ]
 }

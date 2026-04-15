@@ -1,0 +1,80 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gretageo.github.io/test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Greta's",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Collection of Fish Cave photos taken by Greta]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Copyright Greta Brancaleoni]",
+  "sequences" : [ {
+    "@id" : "http://ef95699c-e850-485a-94ad-0629b4b2acb6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a447ebc2-8e49-4303-9739-ea82242e3feb",
+      "@type" : "sc:Canvas",
+      "label" : "Fish Cave",
+      "height" : 3280,
+      "width" : 2464,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://59787ea6-fa04-4270-b131-937ca1db1eba",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/img-20230623-122743/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/img-20230623-122743",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 8081920,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3280,
+          "width" : 2464
+        },
+        "on" : "http://a447ebc2-8e49-4303-9739-ea82242e3feb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://981cf8bf-446a-4bd6-8180-2dc1d7120013",
+      "@type" : "sc:Canvas",
+      "label" : "Fish Cave profile",
+      "height" : 3472,
+      "width" : 4640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9d969f7a-530b-42d4-9afd-d3b49452c6c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gretageo.github.io/test/images/IMG_20230623_123559/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gretageo.github.io/test/images/IMG_20230623_123559",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3472,
+          "width" : 4640
+        },
+        "on" : "http://981cf8bf-446a-4bd6-8180-2dc1d7120013"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
